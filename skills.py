@@ -22,8 +22,7 @@ big_areas = (
             """Understands the entire programming stack, hardware (CPU + Memory + Cache + Interrupts + microcode), binary code, assembly, static and dynamic linking, compilation, interpretation, JIT compilation, garbage collection, heap, stack, memory addressing...""",
         ]),
     ]),
-
-
+    
     ("Software Engineering", [
         ("source code version control", [
             """Folder backups by date""",
@@ -44,7 +43,7 @@ big_areas = (
             """Understands and is able to setup automated functional, load/performance and UI tests""",
         ])
     ]),
-
+    
     ("Programming", [
         ("problem decomposition", [
             """Only straight line code with copy paste for reuse""",
@@ -136,9 +135,14 @@ big_areas = (
           """Able to design good and normalized database schemas keeping in mind the queries that'll have to be run, proficient in use of views, stored procedures, triggers and user defined types. Knows difference between clustered and non-clustered indexes. Proficient in use of ORM tools.""",
           """Can do basic database administration, performance optimization, index optimization, write advanced select queries, able to replace cursor usage with relational sql, understands how data is stored internally, understands how indexes are stored internally, understands how databases can be mirrored, replicated etc. Understands how the two phase commit works.""",
         ]),
-
+        ("regular expressions", [
+          """Does not understand the concept""",
+          r"""Escaping special characters (\n, \t, \\)""",
+          """Basic regular expressions (letters, digits, wildcard characters, number of occurrences, grouping)""",
+          """Advanced features (backreferences, lookahead, lookbehind, greedy/lazy expressions, recursion, subroutines); differences between regex dialects""",
+        ]),
     ]),
-
+    
     ("Knowledge", [
         ("tool knowledge", [
             """Limited to primary IDE (VS.Net, Eclipse etc.)""",
@@ -183,7 +187,7 @@ big_areas = (
             """Maintains a blog in which personal insights and thoughts on programming are shared""",
         ]),
     ]),
-
+    
     ("Experience", [
         ("languages with professional experience", [
             """Imperative or Object Oriented""",
@@ -191,21 +195,18 @@ big_areas = (
             """Functional, added bonus if they understand lazy evaluation, currying, continuations""",
             """Concurrent (Erlang, Oz) and Logic (Prolog)""",
         ]),
-
         ("platforms with professional experience", [
             """1""",
             """2-3""",
             """4-5""",
             """6+""",
         ]),
-
         ("years of professional experience", [
             """1""",
             """2-5""",
             """6-9""",
             """10+""",
         ]),
-
         ("domain knowledge", [
             """No knowledge of the domain""",
             """Has worked on at least one product in the domain.""",
